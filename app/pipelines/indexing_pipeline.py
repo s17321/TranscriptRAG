@@ -15,8 +15,8 @@ class IndexingPipeline:
         processed_dir_name: str = "processed",
         documents_file_name: str = "documents.jsonl",
         chunks_file_name: str = "chunks.jsonl",
-        chunk_size: int = 300,
-        chunk_overlap: int = 50,
+        chunk_size=500,
+        chunk_overlap=100,
         embedding_model_name: str = "all-MiniLM-L6-v2",
     ) -> None:
         self.data_dir = Path(data_dir)

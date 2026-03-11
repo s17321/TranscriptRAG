@@ -4,3 +4,4 @@ pydantic-settings
 fastapi 
 uvicorn
 sentence_transformers
+chromadb
