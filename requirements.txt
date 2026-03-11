@@ -3,3 +3,4 @@ pydantic
 pydantic-settings 
 fastapi 
 uvicorn
+sentence_transformers
